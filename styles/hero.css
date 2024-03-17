@@ -1,0 +1,116 @@
+#heroImageContainer img {
+  display: block;
+  width: 100%;
+  opacity: 0.9;
+  margin: auto;
+}
+#hero {
+  margin-bottom: 3rem;
+}
+#heroImageContainer {
+  position: relative;
+  font-family: "Slackside One", cursive;
+  z-index: -100;
+}
+#heroText1 {
+  font-size: 10rem;
+  color: #a2bd29;
+}
+#heroText2 {
+  font-size: 4rem;
+}
+#heroText3 {
+  font-size: 5rem;
+  display: block;
+}
+#heroImageText {
+
+  position: absolute;
+  top: 30%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  color: white;
+  font-weight: bold;
+}
+#socialContainer {
+  display: flex;
+  justify-content: center;
+  background-color: #36494fb7;
+  margin: auto;
+  width: 50%;
+  border-bottom-left-radius: 15%;
+  border-bottom-right-radius: 15%;
+  border-bottom: 1px solid rgb(255, 255, 255);
+}
+.social {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 0.1rem 1rem;
+}
+.social a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+.social img {
+  width: 4rem;
+}
+.social:hover img {
+  background-color: #ffffff86;
+  border-radius: 20%;
+  font-size: 0;
+}
+.social p {
+  background-color: #ffffff86;
+  margin: 0;
+  font-weight: 800;
+}
+
+@media screen and (max-width: 1400px) {
+  #heroText1 {
+    font-size: 6rem;
+  }
+  #heroText2 {
+    font-size: 3rem;
+  }
+  #heroText3 {
+    font-size: 4rem;
+  }
+}
+@media screen and (max-width: 1000px) {
+  #heroText1 {
+    font-size: 3rem;
+  }
+  #heroText2 {
+    font-size: 2rem;
+  }
+  #heroText3 {
+    font-size: 2rem;
+  }
+  .social img {
+    width: 2rem;
+  }
+}
+@media screen and (max-width: 550px) {
+  #heroText1 {
+    font-size: 2rem;
+  }
+  #heroText2 {
+    font-size: 1rem;
+  }
+  #heroText3 {
+    font-size: 1rem;
+  }
+}
+@media screen and (max-width: 350px) {
+  #heroText1 {
+    font-size: 1rem;
+  }
+  #heroText2 {
+    font-size: 0.8rem;
+  }
+  #heroText3 {
+    font-size: 0.8rem;
+  }
+}

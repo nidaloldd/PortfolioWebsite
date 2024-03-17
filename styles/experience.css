@@ -1,0 +1,43 @@
+/* Experience Section */
+#experienceContainer {
+	display: flex;
+	background-color: #ffffff;
+}
+
+#educationCard {
+	background-color: #263337;
+	text-align: center;
+	width: 50%;
+}
+
+#internshipCard {
+	background-color: #36494f;
+	text-align: center;
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+#educationCard img {
+	width: 30%;
+}
+
+#internshipCard img {
+	width: 60%;
+}
+
+@media screen and (max-width: 750px) {
+	#experienceContainer {
+		flex-direction: column;
+	}
+
+	#educationCard {
+		width: 100%;
+	}
+
+	#internshipCard {
+
+		width: 100%;
+	}
+}

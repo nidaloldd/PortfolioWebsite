@@ -1,0 +1,47 @@
+.carousel {
+  overflow: hidden;
+  position: relative;
+  width: fit-content;
+  height: fit-content;
+}
+
+.carousel-content {
+  display: flex;
+  transition: transform 0.5s ease;
+}
+
+.carousel-item {
+  flex: 0 0 100%;
+}
+
+.carouselbutton {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: #565555;
+  color: #fff;
+  border: none;
+  outline: none;
+  height: 30%;
+  opacity: 0.9;
+  border-radius: 10%;
+  width: 7%;
+}
+
+.prev {
+  left: 0;
+}
+
+.prev img {
+  width: 100%;
+  transform: scaleX(-1);
+}
+
+.next {
+  right: 0;
+}
+
+.next img {
+  width: 100%;
+}

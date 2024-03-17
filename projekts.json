@@ -1,0 +1,57 @@
+[
+    {
+        "id": 0,
+        "images": [
+            "images/chessImages/Chess1.png",
+            "images/chessImages/Chess2.png",
+            "images/chessImages/Chess3.png",
+            "images/chessImages/Chess4.png"
+        ],
+        "title": "Online chess application",
+        "description": "This is an online chess application that I am developing for my thesis, mainly using Java and Spring Boot technologies.",
+        "skills": "Java, Spring Boot, JavaScript, HTML, CSS, WebSocket, MySQL, AJAX",
+        "demoLink": "https://github.com/nidaloldd/OnlineChess",
+        "githubLink": "https://github.com/nidaloldd/OnlineChess"
+    },
+    {
+        "id": 1,
+        "images": [
+            "images/BookshopImages/BookShop1.png",
+            "images/BookshopImages/BookShop2.png",
+            "images/BookshopImages/BookShop3.png"
+        ],
+        "title": "Online bookstore",
+        "description": "A simple webshop selling AI generated Books.",
+        "skills": "Java, Spring Boot, Typescript, HTML, CSS, MySQL, React, Tailwind",
+        "demoLink": "https://github.com/nidaloldd/Bookshop",
+        "githubLink": "https://github.com/nidaloldd/Bookshop"
+    },
+    {
+        "id": 2,
+        "images": [
+            "images/ReversiImages/Reversi1.jpg",
+            "images/ReversiImages/Reversi2.jpg",
+            "images/ReversiImages/Reversi3.jpg",
+            "images/ReversiImages/Reversi4.jpg"
+        ],
+        "title": "Othello board game",
+        "description": "Othello is a two-player strategy board game played on an 8x8 board. Players take turns placing discs of their color on the board, with the goal of having the most discs of their color at the end of the game. Each move must surround and flip one of the opponent's discs to the player's color. The game was written in C# using the .NET WPF framework. This project was completed by a team of three, and I was responsible for the business logic of the game.",
+        "skills": "C#, .NET, WPF framework",
+        "demoLink": "https://github.com/nidaloldd/Othello",
+        "githubLink": "https://github.com/nidaloldd/Othello"
+    },
+    {
+        "id": 3,
+        "images": [
+            "images/BeanyImages/Beany.png",
+            "images/BeanyImages/Beany1.png",
+            "images/BeanyImages/Beany2.png",
+            "images/BeanyImages/Beany3.png"
+        ],
+        "title": "Project Beany Astronaut",
+        "description": "This game was made in three and a half days for a game jam. The team consisted of two people, where I was in charge of all the game mechanics, and my teammate provided the artwork, sound, and music for the project. The game involves playing in a space-like setting, collecting items, and avoiding evil robots. The web build is available at the link below; all you need is a browser to play, even on mobile devices.",
+        "skills": "C#, Unity",
+        "demoLink": "https://kardoskristof.itch.io/beanyastronaut",
+        "githubLink": "https://kardoskristof.itch.io/beanyastronaut"
+    }
+]
